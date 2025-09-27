@@ -1,0 +1,205 @@
+(footprint "Jack_3.5mm_QingPu_WQP-PJ301BM_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.9718 -6.8326 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3b9e0867-94e5-4292-aaa9-2ed887447bfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PJ301BM"
+		(at 0 6.7056 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e57ec342-eae0-45af-9fe4-6950d7d677a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34b84d68-14b5-4be0-968e-03a0aeeceb6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1168a5eb-884c-4b11-b5e7-66a73e1bf4ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.96 -5.76)
+		(end -2 -5.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "948a6ba6-d42c-4b27-938f-ae364dedb551")
+	)
+	(fp_line
+		(start -4.96 -2.1)
+		(end -4.96 -5.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e07d6933-89af-47e1-a431-ca8133c6b93e")
+	)
+	(fp_line
+		(start -4.96 5.26)
+		(end -4.96 3.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da85af42-5d60-405d-a725-e3c4b1a95a42")
+	)
+	(fp_line
+		(start -4.96 5.26)
+		(end 4.96 5.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5989810-7a0b-49b7-83d2-ec4168a617cf")
+	)
+	(fp_line
+		(start 4.96 -5.76)
+		(end 2 -5.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dc8519e-994a-4778-a5a1-02090fbef2d1")
+	)
+	(fp_line
+		(start 4.96 -5.76)
+		(end 4.96 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7fe9b29-5588-4a59-922a-010481f6d7bc")
+	)
+	(fp_line
+		(start 4.96 2.9)
+		(end 4.96 5.26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82240c45-067a-442e-9439-cfacfd6b9074")
+	)
+	(fp_rect
+		(start -5.4 -6.2)
+		(end 5.4 5.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b1f91b70-0192-4330-ab0d-ea1da5a37a67")
+	)
+	(fp_rect
+		(start -4.9 -5.7)
+		(end 4.9 5.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b4d91464-947b-475f-a0db-f7fa8a06ffe3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0bb702c2-54d2-45e6-8d8b-c98c4b8652fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "S" thru_hole oval
+		(at -4.7 0.6 90)
+		(size 4.5 3)
+		(drill oval 2.5 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "75df6817-af08-4c73-84f2-0a20bc328bed")
+	)
+	(pad "S" thru_hole oval
+		(at 4.7 0.6 90)
+		(size 3.8 3)
+		(drill oval 1.8 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da922796-d0e5-4988-bf25-b8210899ec74")
+	)
+	(pad "T" thru_hole oval
+		(at 0 -4.8)
+		(size 4 2)
+		(drill oval 2.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd0161fc-8c95-404a-a79f-95712c475a1c")
+	)
+	(pad "TN" thru_hole oval
+		(at 0 3.3)
+		(size 4 2)
+		(drill oval 2.5 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6acbb6a2-634c-443e-a6a5-efc360ff3bdd")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-libraries/3dmodels/MAI_Connector_Audio.3dshapes/PJ301BM.stpZ"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
