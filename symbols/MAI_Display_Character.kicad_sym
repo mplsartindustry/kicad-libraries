@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "MAI_Display_7Segment:BA56-11SURKWA_Red"
-			(at 80.01 10.16 0)
+			(at 0 -32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,14 +780,14 @@
 			(pin input line
 				(at -13.97 -12.7 0)
 				(length 2.54)
-				(name "3g"
+				(name "3a"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -798,14 +798,14 @@
 			(pin input line
 				(at -13.97 -15.24 0)
 				(length 2.54)
-				(name "3f"
+				(name "3b"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "17"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -816,14 +816,14 @@
 			(pin input line
 				(at -13.97 -17.78 0)
 				(length 2.54)
-				(name "3e"
+				(name "3c"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -852,14 +852,14 @@
 			(pin input line
 				(at -13.97 -22.86 0)
 				(length 2.54)
-				(name "3c"
+				(name "3e"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "13"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -870,14 +870,14 @@
 			(pin input line
 				(at -13.97 -25.4 0)
 				(length 2.54)
-				(name "3b"
+				(name "3f"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "15"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -888,14 +888,14 @@
 			(pin input line
 				(at -13.97 -27.94 0)
 				(length 2.54)
-				(name "3a"
+				(name "3g"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "16"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -903,7 +903,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 27.94 180)
 				(length 2.54)
 				(name "1+"
@@ -921,7 +921,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 25.4 180)
 				(length 2.54)
 				(name "1+"
@@ -957,7 +957,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 7.62 180)
 				(length 2.54)
 				(name "2+"
@@ -993,7 +993,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 13.97 -12.7 180)
 				(length 2.54)
 				(name "3+"
