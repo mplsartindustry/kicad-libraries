@@ -75,7 +75,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -142,7 +142,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -209,7 +209,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -276,7 +276,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin input line
@@ -343,7 +343,7 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 			(pin bidirectional line
