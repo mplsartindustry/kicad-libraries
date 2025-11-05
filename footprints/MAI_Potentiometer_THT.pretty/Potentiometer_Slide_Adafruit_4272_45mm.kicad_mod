@@ -1,0 +1,127 @@
+(footprint "Potentiometer_Slide_Adafruit_4272_45mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.5 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "64bb8b72-1183-402c-9cc1-e1b872653a6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Slide_Adafruit_4272_45mm"
+		(at 2 45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "47a09bcf-0006-45c6-9e0c-170caf90eaad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4272/P4272+C13403-001+Data+Sheet+.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cb20cd4-99d6-4a59-b84c-77eba0ba1121")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b2569ad-632e-4434-9c6a-101c161822d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.81 -0.81)
+		(end 6.81 44.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d55b29ce-c368-48fc-98d0-4f47a88ee87e")
+	)
+	(fp_rect
+		(start -3 -1)
+		(end 7 44.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ac84693c-c165-4a1a-83a0-74e433cd2481")
+	)
+	(fp_rect
+		(start -2.75 -0.75)
+		(end 6.75 44.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f30f80c4-218e-48df-87e8-c359cd3337c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2 21.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "964706c5-ad39-4864-9e40-874a440fdd6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d2618c8-59ad-43af-ae88-ee38e6a61d19")
+	)
+	(pad "2" thru_hole circle
+		(at 4 0)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3505406b-0bf6-4160-9c62-09d27d804375")
+	)
+	(pad "3" thru_hole circle
+		(at 0 43.5)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2421a2b1-cf21-4414-bf92-3fdd4b8907c3")
+	)
+	(embedded_fonts no)
+)
