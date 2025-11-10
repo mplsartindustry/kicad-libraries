@@ -1,0 +1,138 @@
+(footprint "SW_Taiway_100-SPx_SPDT_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bbfd1a89-63a3-4920-9163-6683b2785291")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_Taiway_100-SPx_SPDT_THT"
+		(at 0 7.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "80ebf283-1623-4de7-86d9-cce74484296d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91e3a319-0a1d-4e92-b228-2ed2851987a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21ef51ff-3745-444c-b0ee-2bfe235a82a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.36 -6.41)
+		(end 3.36 6.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "84f30ea9-173d-41ed-b68e-b797a150a70d")
+	)
+	(fp_rect
+		(start -3.55 -6.6)
+		(end 3.55 6.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "db499373-80be-4b91-a2e2-609f6c07ee61")
+	)
+	(fp_rect
+		(start -3.3 -6.35)
+		(end 3.3 6.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "443ced6f-d35f-447c-b9dd-07a789868c64")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5ba0479-5999-43b1-a903-7dbf57199ea9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -4.7)
+		(size 3.4 3.4)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4dc73175-7a6b-4b06-8269-1133129934fb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3.4 3.4)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e784bf71-ccc3-4d48-bdc8-7438e73caa15")
+	)
+	(pad "3" thru_hole circle
+		(at 0 4.7)
+		(size 3.4 3.4)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3975dc09-f0ca-4e37-8705-aee54acd00ca")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-libraries/3dmodels/MAI_Button_Switch_THT.3dshapes/SW_Taiway_100-SPx_SPDT_THT.stpZ"
+		(offset
+			(xyz 0 0 1.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
