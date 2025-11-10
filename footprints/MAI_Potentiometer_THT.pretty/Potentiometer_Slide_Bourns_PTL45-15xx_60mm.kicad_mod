@@ -1,0 +1,221 @@
+(footprint "Potentiometer_Slide_Bourns_PTL45-15xx_60mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 27.55 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0b5f3190-d845-4eca-9ca1-3f26da8bdcdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Potentiometer_Slide_Bourns_PTL45-15xx_60mm"
+		(at 27.5 9.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e265d051-5d34-47dd-bb59-8d88f7ff7425")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56360118-77ce-4186-a8e4-6a90baeac467")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1b85de8-c70a-441b-a221-27c9d8b323fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.56 -0.81)
+		(end -1.5 -0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "050f3c71-8264-4070-82b7-0e904c3c4796")
+	)
+	(fp_line
+		(start -2.56 8.31)
+		(end -2.56 -0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee164e0e-9f6f-499c-9bdc-50927fea0156")
+	)
+	(fp_line
+		(start -2.56 8.31)
+		(end -1.5 8.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa8b84e2-75d5-4d8b-9f22-d021dee8df02")
+	)
+	(fp_line
+		(start 1.5 -0.81)
+		(end 57.56 -0.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62f5c003-70df-47ef-84d7-3a5e997ae6e3")
+	)
+	(fp_line
+		(start 53.5 8.31)
+		(end 1.5 8.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c51d3154-3e47-4d85-b00e-3312df499aae")
+	)
+	(fp_line
+		(start 57.56 -0.81)
+		(end 57.56 8.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b8eae21-4fb1-4b2d-a89b-4a46193c4cea")
+	)
+	(fp_line
+		(start 57.56 8.31)
+		(end 56.5 8.31)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa81dc46-029d-4e3e-b7ae-41e4df2154cd")
+	)
+	(fp_rect
+		(start -2.75 -1)
+		(end 57.75 8.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3400b867-e546-4ad3-955b-17851abd6aa1")
+	)
+	(fp_rect
+		(start -2.5 -0.75)
+		(end 57.5 8.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bee89bb4-5caf-4085-b044-63290ef8b770")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 27.5 4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "15e13206-fa3b-438f-87ae-6852998d9383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 0 5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ad5e38c-7292-4cd7-ba0d-b970d3a5bd2a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf1150f8-9b40-415b-93b7-3a4cc989d035")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02f054f6-e8bf-4768-9526-530e1db566f1")
+	)
+	(pad "3" thru_hole circle
+		(at 55 2.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da1aff7f-881d-4d4a-aa03-578367c7a8c9")
+	)
+	(pad "A" thru_hole circle
+		(at 55 7.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d5b95736-6cae-49dc-8312-82eccd9063ff")
+	)
+	(pad "K" thru_hole circle
+		(at 0 7.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "157ebbb1-9fcb-4d4b-bd3a-0431a03b01e7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-libraries/3dmodels/MAI_Potentiometer_THT.3dshapes/Potentiometer_Slide_Bourns_PTL45-15xx_60mm.stpZ"
+		(offset
+			(xyz 27.5 -3.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
