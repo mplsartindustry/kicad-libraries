@@ -56,6 +56,17 @@
 		)
 	)
 	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_rect
+		(start -1.15 -2.21)
+		(end 3.69 2.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2726c843-26e8-47b3-b246-072894977698")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
@@ -72,7 +83,7 @@
 		(at 1.27 0)
 		(size 3.175 3.175)
 		(drill 3.175)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "b5315a47-0d13-4f77-954e-22e637b634c7")
 	)
 	(embedded_fonts no)

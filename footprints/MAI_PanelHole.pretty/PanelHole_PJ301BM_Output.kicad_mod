@@ -67,6 +67,17 @@
 		(layer "F.Mask")
 		(uuid "aa96404a-2bad-4b2a-87e6-6f37ed1e4210")
 	)
+	(fp_rect
+		(start -5.4 -6.2)
+		(end 5.4 5.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "800d001a-2a48-46f8-9eb9-a5a92cd8b92f")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
