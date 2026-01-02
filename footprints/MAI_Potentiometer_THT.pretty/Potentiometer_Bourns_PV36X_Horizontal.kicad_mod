@@ -1,4 +1,4 @@
-(footprint "Potentiometer_Bourns_PV36W_Vertical"
+(footprint "Potentiometer_Bourns_PV36X_Horizontal"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Potentiometer_Bourns_PV36W_Vertical"
+	(property "Value" "Potentiometer_Bourns_PV36X_Horizontal"
 		(at 0 6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -65,20 +65,20 @@
 		(layer "F.SilkS")
 		(uuid "5a5560de-ff39-4530-b8be-3457d6a82f41")
 	)
-	(fp_circle
-		(center 1.415 -3.765)
-		(end 1.915 -3.765)
+	(fp_rect
+		(start -0.22 4.85)
+		(end 2.32 6.37)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "957e43fb-e736-4ddd-9fbe-15a06fa5d4f7")
+		(uuid "66f8b50d-ae59-424a-bfe2-f1aba3ecbf4d")
 	)
 	(fp_rect
 		(start -2.665 -5.015)
-		(end 2.665 5.015)
+		(end 2.665 6.515)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -135,7 +135,7 @@
 		(uuid "db966fce-7526-46ac-94d2-f639d57d7716")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad-libraries/3dmodels/MAI_Potentiometer_THT.3dshapes/Potentiometer_Bourns_PV36W_Vertical.stpZ"
+	(model "${KIPRJMOD}/kicad-libraries/3dmodels/MAI_Potentiometer_THT.3dshapes/Potentiometer_Bourns_PV36X_Horizontal.stpZ"
 		(offset
 			(xyz 0 0 0)
 		)
