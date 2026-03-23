@@ -1,0 +1,104 @@
+(footprint "PanelHole_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 180)
+		(layer "F.Fab")
+		(uuid "5556b31a-a42d-4c02-8359-2cadd5e45d6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PanelHole_Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+		(at -7.5 7.36 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76eede0a-e6d8-47d6-b23c-43a8c85c8b4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "931aac08-904b-4e59-a93d-8492c5ad80c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4acca1c9-a275-4f22-b054-c3b1e46adce2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.65 -6.41)
+		(end -8.65 6.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e64f3449-896b-49db-8275-8346105bb7a9")
+	)
+	(fp_line
+		(start -8.65 6.41)
+		(end 5.1 6.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a674d662-7d34-4cf1-84b7-fe5b55612c95")
+	)
+	(fp_line
+		(start 5.1 -6.41)
+		(end -8.65 -6.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48147e35-d3bf-42d4-90e8-062802067d8a")
+	)
+	(fp_line
+		(start 5.1 6.41)
+		(end 5.1 -6.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f99d3dee-94c3-4c9a-8121-1193df0e1e17")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 7.8 7.8)
+		(drill 7.8)
+		(layers "*.Mask")
+		(uuid "932b5fb2-ad0e-44e5-ab5b-86c6ec250dc7")
+	)
+	(embedded_fonts no)
+)
