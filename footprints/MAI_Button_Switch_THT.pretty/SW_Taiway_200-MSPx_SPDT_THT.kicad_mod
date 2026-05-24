@@ -1,0 +1,161 @@
+(footprint "SW_Taiway_200-MSPx_SPDT_THT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5ae8c50c-89e1-430c-babf-e02758a01747")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_Taiway_200-MSPx_SPDT_THT"
+		(at 0 5.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8e17d111-9557-4019-bbf7-5c3263a7b0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lovemyswitches.com/taiway-sub-mini-spdt-on-off-on-switch-solder-lug-short-shaft/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79521e9b-39ea-4a3a-9546-2fd1afb0c594")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60cdf8f6-1216-4606-82cf-025729cf3101")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 2.54 -1.595526) (xy 2.57237 -1.544635) (xy 2.648476 -1.410164) (xy 2.717557 -1.271954) (xy 2.779433 -1.130371)
+			(xy 2.833938 -0.985791) (xy 2.880927 -0.838596) (xy 2.920277 -0.689177) (xy 2.951883 -0.537931) (xy 2.975661 -0.385259)
+			(xy 2.991549 -0.231565) (xy 2.999503 -0.077257) (xy 3 0) (xy 2.999503 0.077257) (xy 2.991549 0.231565)
+			(xy 2.975661 0.385259) (xy 2.951883 0.537931) (xy 2.920277 0.689177) (xy 2.880927 0.838596) (xy 2.833938 0.985791)
+			(xy 2.779433 1.130371) (xy 2.717557 1.271954) (xy 2.648476 1.410164) (xy 2.57237 1.544635) (xy 2.54 1.595526)
+			(xy 2.54 4.065) (xy -2.54 4.065) (xy -2.54 1.595526) (xy -2.57237 1.544635) (xy -2.648476 1.410164)
+			(xy -2.717557 1.271954) (xy -2.779433 1.130371) (xy -2.833938 0.985791) (xy -2.880927 0.838596) (xy -2.920277 0.689177)
+			(xy -2.951883 0.537931) (xy -2.975661 0.385259) (xy -2.991549 0.231565) (xy -2.999503 0.077257) (xy -2.999503 -0.077257)
+			(xy -2.991549 -0.231565) (xy -2.975661 -0.385259) (xy -2.951883 -0.537931) (xy -2.920277 -0.689177)
+			(xy -2.880927 -0.838596) (xy -2.833938 -0.985791) (xy -2.779433 -1.130371) (xy -2.717557 -1.271954)
+			(xy -2.648476 -1.410164) (xy -2.57237 -1.544635) (xy -2.54 -1.595526) (xy -2.54 -4.065) (xy 2.54 -4.065)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "aaf1be44-6e3d-41b6-8fff-6987b83c0d95")
+	)
+	(fp_rect
+		(start -3.25 -4.315)
+		(end 3.25 4.315)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1c4ca07b-d4bc-4914-90f4-08cc7e3dd077")
+	)
+	(fp_poly
+		(pts
+			(xy 2.54 -1.595526) (xy 2.57237 -1.544635) (xy 2.648476 -1.410164) (xy 2.717557 -1.271954) (xy 2.779433 -1.130371)
+			(xy 2.833938 -0.985791) (xy 2.880927 -0.838596) (xy 2.920277 -0.689177) (xy 2.951883 -0.537931) (xy 2.975661 -0.385259)
+			(xy 2.991549 -0.231565) (xy 2.999503 -0.077257) (xy 3 0) (xy 2.999503 0.077257) (xy 2.991549 0.231565)
+			(xy 2.975661 0.385259) (xy 2.951883 0.537931) (xy 2.920277 0.689177) (xy 2.880927 0.838596) (xy 2.833938 0.985791)
+			(xy 2.779433 1.130371) (xy 2.717557 1.271954) (xy 2.648476 1.410164) (xy 2.57237 1.544635) (xy 2.54 1.595526)
+			(xy 2.54 4.065) (xy -2.54 4.065) (xy -2.54 1.595526) (xy -2.57237 1.544635) (xy -2.648476 1.410164)
+			(xy -2.717557 1.271954) (xy -2.779433 1.130371) (xy -2.833938 0.985791) (xy -2.880927 0.838596) (xy -2.920277 0.689177)
+			(xy -2.951883 0.537931) (xy -2.975661 0.385259) (xy -2.991549 0.231565) (xy -2.999503 0.077257) (xy -2.999503 -0.077257)
+			(xy -2.991549 -0.231565) (xy -2.975661 -0.385259) (xy -2.951883 -0.537931) (xy -2.920277 -0.689177)
+			(xy -2.880927 -0.838596) (xy -2.833938 -0.985791) (xy -2.779433 -1.130371) (xy -2.717557 -1.271954)
+			(xy -2.648476 -1.410164) (xy -2.57237 -1.544635) (xy -2.54 -1.595526) (xy -2.54 -4.065) (xy 2.54 -4.065)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2f3690b5-55d9-4f3c-bea4-e299037bda60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a9d6864e-3462-48fd-9825-d9bfbec06b1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 -2.54)
+		(size 3.23 1.71)
+		(drill oval 2.23 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "372baf50-4d35-490b-a847-8e3d6c038952")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 3.23 1.71)
+		(drill oval 2.23 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3e6f5cf-1062-4ec5-ad7d-90ffc58aa96e")
+	)
+	(pad "3" thru_hole oval
+		(at 0 2.54)
+		(size 3.23 1.71)
+		(drill oval 2.23 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57ef4f13-9a79-4659-a0c0-f092763becb3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/kicad-libraries/3dmodels/MAI_Button_Switch_THT.3dshapes/SW_Taiway_200_MSPx_SPDT_THT.stpZ"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
